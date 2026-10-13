@@ -42,12 +42,12 @@ insightai/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/insightai.git
+git clone https://github.com/<Suraj5856>/insightai.git
 cd insightai
 python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
+source venv/bin/activate        
 pip install -r requirements.txt
-cp .env.example .env            # Windows: copy .env.example .env
+cp .env.example .env          
 # open .env and add your GOOGLE_API_KEY
 ```
 
