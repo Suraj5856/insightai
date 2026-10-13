@@ -1,0 +1,488 @@
+[
+  {
+    "question": "How many paid leaves do employees get per year?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "18|eighteen"
+    ],
+    "note": "simple"
+  },
+  {
+    "question": "How many days of leave can be carried forward?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "6|six"
+    ],
+    "note": "simple"
+  },
+  {
+    "question": "How long is the probation period?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "6 months|six months"
+    ],
+    "note": "simple"
+  },
+  {
+    "question": "What is the annual learning budget?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "25,000|25000"
+    ],
+    "note": "number"
+  },
+  {
+    "question": "On which days can employees work from home?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "Wednesday",
+      "Friday"
+    ],
+    "note": "simple"
+  },
+  {
+    "question": "How soon must leave requests be submitted?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "3 days|three days"
+    ],
+    "note": "simple"
+  },
+  {
+    "question": "Can I work remotely on Fridays?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "Friday"
+    ],
+    "note": "reworded"
+  },
+  {
+    "question": "What is the most unused leave I can take into next year?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "6|six"
+    ],
+    "note": "reworded"
+  },
+  {
+    "question": "How many leave days do I get in a year including sick leave?",
+    "expected_source": "company_handbook.txt",
+    "expected_keywords": [
+      "28|twenty-eight"
+    ],
+    "note": "needs adding 18 + 10"
+  },
+  {
+    "question": "What is the CEO's salary?",
+    "answerable": false,
+    "note": "not in docs"
+  },
+  {
+    "question": "What are the two main components of a RAG model?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "retriever",
+      "generator"
+    ],
+    "note": "p.2"
+  },
+  {
+    "question": "Which model is used as the retriever in RAG?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "DPR"
+    ],
+    "note": "p.2/4"
+  },
+  {
+    "question": "Which pre-trained seq2seq model is the generator in RAG?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "BART"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "What does MIPS stand for?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "Maximum Inner Product Search"
+    ],
+    "note": "p.2"
+  },
+  {
+    "question": "Which library was used to build the document index for MIPS?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "FAISS"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "Which Wikipedia dump was used for the main results?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "December 2018|Dec 2018"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "How many words are in each Wikipedia chunk of the index?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "100|hundred"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "What Exact Match score did RAG-Sequence get on Natural Questions?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "44.5"
+    ],
+    "note": "Table 1, p.6"
+  },
+  {
+    "question": "In the human evaluation, in what percent of cases was RAG more factual than BART?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "42.7"
+    ],
+    "note": "p.6 / Table 4"
+  },
+  {
+    "question": "How many world leaders were used in the index hot-swapping experiment?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "82|eighty-two"
+    ],
+    "note": "p.7"
+  },
+  {
+    "question": "What accuracy did RAG get using the 2016 index for 2016 world leaders?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "70"
+    ],
+    "note": "p.7"
+  },
+  {
+    "question": "How close is RAG to state of the art on 3-way FEVER classification?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "4.3"
+    ],
+    "note": "p.2/6"
+  },
+  {
+    "question": "What accuracy does RAG get on NQ when the answer is in none of the retrieved documents?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "11.8"
+    ],
+    "note": "p.6"
+  },
+  {
+    "question": "How many trainable parameters do the RAG models have in total?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "626"
+    ],
+    "note": "Appendix G, p.18"
+  },
+  {
+    "question": "What GPUs were used to train the RAG models?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "V100"
+    ],
+    "note": "Appendix C, p.17"
+  },
+  {
+    "question": "What is the difference between RAG-Sequence and RAG-Token?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "same",
+      "different"
+    ],
+    "note": "p.3"
+  },
+  {
+    "question": "Which RAG variant performed better on Jeopardy question generation?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "RAG-Token"
+    ],
+    "note": "p.6"
+  },
+  {
+    "question": "Which parts of the model are fine-tuned during training?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "query encoder",
+      "BART"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "Why can RAG's knowledge be updated without retraining the model?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "non-parametric"
+    ],
+    "note": "p.7"
+  },
+  {
+    "question": "On which task did the BM25 retriever do better than the learned retriever?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "FEVER"
+    ],
+    "note": "p.7"
+  },
+  {
+    "question": "Which two decoding methods are used for RAG-Sequence?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "Thorough",
+      "Fast"
+    ],
+    "note": "p.4"
+  },
+  {
+    "question": "Which open-domain QA datasets did RAG set a new state of the art on?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "Natural Questions",
+      "WebQuestions"
+    ],
+    "note": "p.2"
+  },
+  {
+    "question": "What is retrieval collapse?",
+    "expected_source": "rag_paper.pdf",
+    "expected_keywords": [
+      "same"
+    ],
+    "note": "Appendix H, p.19"
+  },
+  {
+    "question": "What score did RAG get on the GLUE benchmark?",
+    "answerable": false,
+    "note": "GLUE is only mentioned in related work"
+  },
+  {
+    "question": "How much did it cost to train the RAG models?",
+    "answerable": false,
+    "note": "not in paper"
+  },
+  {
+    "question": "Who is the CEO of Facebook AI Research?",
+    "answerable": false,
+    "note": "not in paper"
+  },
+  {
+    "question": "What is the capital of France?",
+    "answerable": false,
+    "note": "general knowledge, not in docs"
+  },
+  {
+    "question": "Under the DPDP Act, who counts as a child?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "18|eighteen"
+    ],
+    "note": "s.2(f), p.5"
+  },
+  {
+    "question": "What is a Data Fiduciary?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "purpose",
+      "means"
+    ],
+    "note": "s.2(i), p.5"
+  },
+  {
+    "question": "Who counts as the Data Principal when the person is a child?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "parent|guardian"
+    ],
+    "note": "s.2(j), p.5"
+  },
+  {
+    "question": "Does the Act apply to personal data processed by an individual for personal or domestic use?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "not apply|does not|doesn't"
+    ],
+    "note": "s.3(c), p.7"
+  },
+  {
+    "question": "Can a Data Principal withdraw her consent?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "any time"
+    ],
+    "note": "s.6(4), p.9"
+  },
+  {
+    "question": "In which languages must the consent notice be available?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "English",
+      "Eighth Schedule"
+    ],
+    "note": "s.5(3), p.8"
+  },
+  {
+    "question": "Can personal data be processed without consent in a medical emergency?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "emergency"
+    ],
+    "note": "s.7(f), p.10"
+  },
+  {
+    "question": "What must a Data Fiduciary obtain before processing a child's personal data?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "verifiable",
+      "parent|guardian"
+    ],
+    "note": "s.9(1), p.11"
+  },
+  {
+    "question": "What is a Data Fiduciary not allowed to do with children's data?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "targeted advertising"
+    ],
+    "note": "s.9(3), p.12"
+  },
+  {
+    "question": "Who must be informed when a personal data breach happens?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "Board",
+      "Data Principal"
+    ],
+    "note": "s.8(6), p.11"
+  },
+  {
+    "question": "What should a Data Fiduciary do with personal data when it is no longer needed for its purpose?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "erase"
+    ],
+    "note": "s.8(7), p.11"
+  },
+  {
+    "question": "What must a Significant Data Fiduciary appoint?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "Data Protection Officer",
+      "auditor"
+    ],
+    "note": "s.10(2), p.12"
+  },
+  {
+    "question": "What is the right to nominate?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "death",
+      "incapacity"
+    ],
+    "note": "s.14, p.13"
+  },
+  {
+    "question": "Can personal data be sent to other countries?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "restrict"
+    ],
+    "note": "s.16, p.14"
+  },
+  {
+    "question": "Which tribunal hears appeals against orders of the Data Protection Board?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "Telecom Disputes Settlement and Appellate Tribunal"
+    ],
+    "note": "s.2(a)/s.29, p.5 and 18"
+  },
+  {
+    "question": "Within how many days must an appeal to the Appellate Tribunal be filed?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "60|sixty"
+    ],
+    "note": "s.29(2), p.18"
+  },
+  {
+    "question": "Within how long should the Appellate Tribunal try to finish an appeal?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "six months|6 months"
+    ],
+    "note": "s.29(6), p.19"
+  },
+  {
+    "question": "How long do Board members hold office?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "two years|2 years"
+    ],
+    "note": "s.20(2), p.16"
+  },
+  {
+    "question": "What is the maximum penalty for failing to take reasonable security safeguards?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "250|two hundred and fifty",
+      "crore"
+    ],
+    "note": "Schedule item 1, p.24"
+  },
+  {
+    "question": "What is the maximum penalty for breaching the duties of a Data Principal?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "10,000|ten thousand"
+    ],
+    "note": "Schedule item 5, p.24"
+  },
+  {
+    "question": "What is the maximum penalty for breaking the rules on children's data?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "200|two hundred",
+      "crore"
+    ],
+    "note": "Schedule item 3, p.24"
+  },
+  {
+    "question": "When did the sections on the Data Protection Board come into force?",
+    "expected_source": "dpdp_act_2023.pdf",
+    "expected_keywords": [
+      "13th November|13 November|November 13"
+    ],
+    "note": "footnote, p.5"
+  },
+  {
+    "question": "What does the GDPR say about the right to be forgotten?",
+    "answerable": false,
+    "note": "GDPR not in the Act"
+  },
+  {
+    "question": "Which company was fined first under the DPDP Act?",
+    "answerable": false,
+    "note": "not in the Act"
+  },
+  {
+    "question": "What is the age limit for Data Protection Board members?",
+    "answerable": false,
+    "note": "not in the Act"
+  }
+]

@@ -1,0 +1,16 @@
+Acme Tech Employee Handbook
+
+Working Hours
+Office hours are 9:30 AM to 6:30 PM, Monday to Friday. Employees can work from home on Wednesdays and Fridays. Core collaboration hours are 11 AM to 4 PM.
+
+Leave Policy
+Every employee gets 18 paid leaves per year. Sick leave is separate and gives 10 additional days per year. Unused paid leaves up to 6 days can be carried forward to the next year. Leave requests must be submitted at least 3 days in advance through the HR portal, except for emergencies.
+
+Probation
+The probation period is 6 months. During probation, employees are eligible for 1 paid leave per month. Performance is reviewed at the end of month 3 and month 6.
+
+Learning Budget
+Each employee receives an annual learning budget of 25,000 rupees for courses, books and certifications. Claims must be submitted with receipts within 30 days of purchase.
+
+IT Support
+For laptop or software problems, email it-help@acmetech.example or raise a ticket on the helpdesk portal. Typical response time is 4 working hours.
