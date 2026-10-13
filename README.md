@@ -21,19 +21,19 @@ Question -> embedding -> top-K similar chunks -> prompt + LLM -> answer + source
 ```
 insightai/
 ├── app/
-│   ├── main.py          # FastAPI endpoints
-│   ├── rag.py           # retrieval + LLM answer
-│   ├── ingestion.py     # load, chunk, embed, store
-│   ├── providers.py     # Gemini / OpenAI model setup
-│   ├── vectorstore.py   # ChromaDB setup
-│   ├── evaluation.py    # quality metrics
-│   ├── logger.py        # logs + metrics summary
-│   ├── schemas.py       # request/response models
-│   └── config.py        # settings from .env
-├── scripts/evaluate.py  # run evaluation
-├── tests/test_api.py    # API tests (no API key needed)
-├── data/docs/           # sample document
-├── data/eval/           # evaluation questions
+│   ├── main.py          
+│   ├── rag.py           
+│   ├── ingestion.py     
+│   ├── providers.py     
+│   ├── vectorstore.py   
+│   ├── evaluation.py    
+│   ├── logger.py        
+│   ├── schemas.py       
+│   └── config.py        
+├── scripts/evaluate.py  
+├── tests/test_api.py    
+├── data/docs/           
+├── data/eval/           
 ├── Dockerfile
 ├── requirements.txt
 └── .env.example
@@ -98,12 +98,6 @@ python -m scripts.evaluate
 ```
 
 Prints retrieval hit rate, answer accuracy and average latency on `data/eval/eval_set.json`. Add your own questions to that file for your own documents.
-
-## Tests
-
-```bash
-pytest
-```
 
 ## Docker
 
